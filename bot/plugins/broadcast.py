@@ -24,3 +24,5 @@ async def broadcastmssg(event):
         event.chat_id,
         f"Broadcast sent to {sent_count} Users.\nErrors - {error_count}\n\nAll users - {len(userstobc)}"
         )
+
+                   
