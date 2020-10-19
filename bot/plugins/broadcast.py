@@ -2,8 +2,8 @@ from bot.hf.fic import vhkzuoi_repliz_handler
 from bot.hf.flifi import uszkhvis_chats_ahndler
 from bot.hf.stuf import get_tle_mof_t
 from bot.sql.users_sql import get_user_id
-
-@Client.on_message(pattern="^/broadcast ?(.*)", func=lambda e: e.sender_id == bot.uid))
+from bot import AUTH_CHANNEL
+@Client.on_message(broadcast ?(.*)", func=lambda e: e.sender_id == AUTH_CHANNEL)
 async def broadcastmssg(event):
     msgtobroadcast = event.pattern_match.group(1)
     userstobc = get_all_users()
