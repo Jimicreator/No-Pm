@@ -1,3 +1,5 @@
+# Don't deploy this fork, deploy the main repo of SpEcHiDe, found [here](https://github.com/SpEcHiDe/NoPMsBot)
+
 # Telegram Relay Bot
 
 This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the [COPYING](./COPYING) for more details.
